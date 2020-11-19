@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
+/* Smartphones */
+/* Tablet */
+/* Normal */
+/* Widescreen */
+/* Landscape */
+html,
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.btn-outline-warning {
+  color: #fb4f14;
+  border-color: #fb4f14;
+}
+
+#showcase .card-img-overlay {
+  position: absolute;
+  bottom: 0 !important;
+  top: auto;
+}
+#showcase .card-img-overlay h4 a {
+  color: #fefefe;
+}
+#showcase .card-img-overlay h4 a:hover {
+  text-decoration: none;
+}
+#showcase .btn-primary {
+  background: #fb4f14;
+  border: #fb4f14;
+}
+
+#ad-nav-2 {
+  background: #ffd9da;
+}
+
+#features h5 a,
+#features p {
+  color: #4d4d4d;
+}
+#features .btn-primary {
+  background: #fb4f14;
+  border: #fb4f14;
+}
+#features .sidebar-item ul {
+  list-style: none;
+}
+#features .sidebar-item li a {
+  color: #4d4d4d;
+}
+
+/*# sourceMappingURL=style.css.map */

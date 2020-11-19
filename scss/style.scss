@@ -1,0 +1,79 @@
+// Import Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+
+// Font
+// $font-title: 'Montserrat', sans-serif;
+// $font-body: 'Montserrat', sans-serif;
+$font-title: 'Montserrat', sans-serif;
+$font-body: 'Nunito', sans-serif;
+
+// Colors
+$main-color: #fb4f14;
+$secondary-color: #fc9572;
+$gray1-color: #4d4d4d;
+$gray2-color: #707070;
+$gray3-color: #fefefe;
+
+// Import
+@import 'mobile';
+
+// START HERE
+html,
+body {
+  font-family: $font-body;
+}
+
+// HEADER
+// Nav
+.btn-outline-warning {
+  color: $main-color;
+  border-color: $main-color;
+}
+
+// Showcase
+#showcase {
+  .card-img-overlay {
+    position: absolute;
+    bottom: 0 !important;
+    top: auto;
+    h4 a {
+      color: $gray3-color;
+    }
+    h4 a:hover {
+      text-decoration: none;
+    }
+  } //End .card-img-overlay
+  .btn-primary {
+    background: $main-color;
+    border: $main-color;
+  }
+} //End #showcase
+
+#ad-nav-2 {
+  background: #ffd9da;
+}
+
+//Features
+#features {
+  h5 a,
+  p {
+    color: $gray1-color;
+  }
+  .btn-primary {
+    background: $main-color;
+    border: $main-color;
+  }
+  .sidebar {
+    &-item {
+      ul {
+        list-style: none;
+      }
+      li a {
+        color: $gray1-color;
+      }
+    }
+  }
+} //End #showcase
